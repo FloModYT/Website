@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
+section {
+    min-height: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3, a {
+    font-family: 'Baloo Chettan 2';
+    font-weight: 600;
+    color: #494949;
+    text-transform: uppercase;
+}
+
+h2 {color: #5d7177;}
+
+h3 {font-size: 40px; padding-top: 8%; margin-bottom: 5px;}
+
+h4, p {font-family: 'Baloo Chettan 2', serif; color: #494949;}
+
+hr {width: 30px; height: 3px; background: #494949; border: 0px; margin: 0px auto 40px auto;}
+
+#logo,li, img {transition: all 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;}
+
+#section-home {
+    font-family: 'Baloo Chettan 2';
+}
+
+#logo {
+    width: 140px;
+    float: left;
+    margin: 10px 0 0 15px;
+}
+
+#logo:hover {
+    opacity: 0.5;
+}
+
+#logo img {
+    width: 50px;
+}
+
+#projectleader {
+    color: #cf0000;
+    font-family: 'Baloo Chettan 2', serif;
+}
+
+#projectadmin {
+    color: #ff2000;
+    font-family: 'Baloo Chettan 2', serif;
+}
+
+#projectdeveloper {
+    color: #00afff;
+    font-family: 'Baloo Chettan 2', serif;
+}
+
+#projectsupporter {
+    color:#107fff;
+    font-family: 'Baloo Chettan 2', serif;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+header nav {
+    float: right;
+    margin: 10px 50px 0 0;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 25px;
+}
+
+header nav ul li:hover {
+    padding-top: 5px;
+}
+
+#section-home {
+    background: url(assets/ocean1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#section-home h3 {
+    margin: 100px auto 0 auto;
+    font-size: 1;
+}
+
+#section-home h2 {
+    margin: 9 auto 0 auto;
+}
+
+#section-home img {
+    width: 32px;
+    margin-top: 150px;
+    opacity: 0.7;
+}
+
+#section-home img:hover {
+    opacity: 1;
+}
+
+/*Team Reboot*/
+
+#fedox {
+    font-family: 'Baloo Chettan 2', serif;
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    background: #616266;
+    width: 636px;
+    height: 217px;
+}
